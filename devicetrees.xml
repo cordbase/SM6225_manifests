@@ -17,3 +17,4 @@
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived" />
+</manifest>
