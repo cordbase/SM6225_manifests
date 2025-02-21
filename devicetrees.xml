@@ -3,6 +3,7 @@
     <!-- Remote sources -->
     <remote name="pixelthrived"		fetch="https://github.com/pixelthrived"		revision="lineage-22.1" />
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.1" />
+    <remote name="los"    fetch="https://github.com/LineageOS"    revision="lineage-22.1" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="pixelthrived" />
@@ -13,7 +14,7 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
 
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="pixelthrived"    recursive="true" />
+    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="pixelthrived" />
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived" />
