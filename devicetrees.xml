@@ -7,6 +7,8 @@
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="pixelthrived" />
+    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="pixelthrived" />
+    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="pixelthrived" />
     <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="pixelthrived" />
 
     <!-- Vendor trees -->
@@ -14,7 +16,7 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
 
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="los" />
+    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="los" 		revision="v"/>
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived" />
