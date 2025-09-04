@@ -18,7 +18,7 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="los" 		revision="lineage-22.2" />
+    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="base" 		revision="v" />
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola"	path="hardware/motorola"	remote="los" />
