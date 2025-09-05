@@ -16,7 +16,7 @@
     <project name="TheMuppets/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="github" revision="lineage-22.2"/>
     
     <!-- Kernel and Others-->
-    <project name="SM6225-Motorola/hardware_motorola.git" path="hardware/motorola" remote="github" revision="A15"/>
+    <project name="cordbase/hardware_motorola.git" path="hardware/motorola" remote="github" revision="A15"/>
     <project name="cordbase/android_kernel_motorola_sm6225.git" path="hardware/motorola" remote="github" revision="v"/>
 
     <!-- MotoCamera (Thanks @Deivid21)-->
