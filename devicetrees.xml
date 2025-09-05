@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remote sources -->
-    <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
-    <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
-    <remote name="base"                  fetch="https://github.com/cordbase"
-    <remote name="gitlab"                  fetch="https://gitlab.com/Deivid21"
-        
+    <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-22.2" />
+    <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-22.2" />
+    <remote name="base" fetch="https://github.com/cordbase" revision="lineage-22.2" />
+    <remote name="gitlab" fetch="https://gitlab.com/Deivid21" />
+
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="los" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="los" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="base" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="base" />
+    <project name="android_device_motorola_devon" path="device/motorola/devon" remote="los" />
+    <project name="android_device_motorola_hawao" path="device/motorola/hawao" remote="los" />
+    <project name="android_device_motorola_rhode" path="device/motorola/rhode" remote="base" />
+    <project name="android_device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="base" />
 
     <!-- Vendor trees -->
-    <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
+    <project name="proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="muppets" />
+    <project name="proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="muppets" />
+    <project name="proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="muppets" />
+    <project name="proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="base" />
+    <project name="android_kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="base" revision="lineage-22.2" />
 
     <!-- Hardware dependency -->
-    <project name="hardware_motorola"	path="hardware/motorola"	remote="base" />
+    <project name="hardware_motorola" path="hardware/motorola" remote="base" />
 
     <!-- MotoCamera (Thanks @Deivid21)-->
     <project name="proprietary_vendor_motorola_MotoSignatureApp" path="vendor/motorola/MotoSignatureApp" remote="gitlab" revision="android-15"/>
     <project name="proprietary_vendor_motorola_MotorolaSettingsProvider" path="vendor/motorola/MotorolaSettingsProvider" remote="gitlab" revision="android-15"/>
     <project name="proprietary_vendor_motorola_MotoPhotoEditor" path="vendor/motorola/MotoPhotoEditor" remote="gitlab" revision="android-15"/>
-    <project name="proprietary_vendor_motorola_MotCamera-common" path="vendor/motorola/MotCamera-common"  remote="gitlab" revision="android-15"/>
+    <project name="proprietary_vendor_motorola_MotCamera-common" path="vendor/motorola/MotCamera-common" remote="gitlab" revision="android-15"/>
     <project name="proprietary_vendor_motorola_MotCamera4-bengal" path="vendor/motorola/MotCamera4-bengal" remote="gitlab" revision="android-15"/>
     <project name="proprietary_vendor_motorola_MotCameraAI-common" path="vendor/motorola/MotCameraAI-common" remote="gitlab" revision="android-15"/>
     <project name="proprietary_vendor_motorola_MotCamera3AI-bengal" path="vendor/motorola/MotCamera3AI-bengal" remote="gitlab" revision="android-15"/>
